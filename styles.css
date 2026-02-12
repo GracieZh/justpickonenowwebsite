@@ -279,7 +279,7 @@ header {
     gap: 30px;
 }
 
-.btn-app-store, .btn-play-store {
+.btn-app-store {
     background: rgba(255, 255, 255, 0.1);
     color: white;
     border: 2px solid rgba(255, 255, 255, 0.3);
@@ -288,7 +288,7 @@ header {
     font-size: 1.1rem;
 }
 
-.btn-app-store:hover, .btn-play-store:hover {
+.btn-app-store:hover {
     background: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.5);
 }
@@ -437,6 +437,14 @@ footer {
     .screenshots-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
+
+    .video-container {
+        max-width: 90%;
+    }
+
+    .video h2 {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -455,5 +463,18 @@ footer {
 
     .container {
         padding: 0 15px;
+    }
+
+    .video h2 {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .video-container {
+        max-width: 95%;
+    }
+
+    .hero-phone {
+        max-width: 250px;
     }
 }

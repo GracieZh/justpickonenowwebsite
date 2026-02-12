@@ -210,7 +210,7 @@ header {
 
 .screenshots-grid {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     padding: 20px 0;
@@ -236,32 +236,6 @@ header {
 
 .screenshot:hover {
     transform: scale(1.05);
-}
-
-/* Video Section */
-.video {
-    padding: 60px 0;
-    background: white;
-}
-
-.video h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #333;
-}
-
-.video-container {
-    max-width: 250px;
-    margin: 0 auto;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-}
-
-.video-container video {
-    width: 100%;
-    height: auto;
 }
 
 /* Download Section */
@@ -445,7 +419,7 @@ footer {
     }
 
     .screenshots-grid {
-        gap: 15px;
+        gap: 8px;
         padding: 15px 0;
     }
 
@@ -453,14 +427,7 @@ footer {
         flex: 0 0 200px;
         width: 200px;
     }
-
-    .video-container {
-        max-width: 90%;
-    }
-
-    .video h2 {
-        font-size: 1.8rem;
-    }
+}
 }
 
 @media (max-width: 480px) {
@@ -481,21 +448,12 @@ footer {
         padding: 0 15px;
     }
 
-    .video h2 {
-        font-size: 1.8rem;
-        margin-bottom: 2rem;
-    }
-
-    .video-container {
-        max-width: 95%;
-    }
-
     .hero-phone {
         max-width: 250px;
     }
 
     .screenshots-grid {
-        gap: 10px;
+        gap: 5px;
         padding: 10px 0;
     }
 

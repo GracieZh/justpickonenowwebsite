@@ -230,19 +230,19 @@ header {
 
 /* Video Section */
 .video {
-    padding: 100px 0;
+    padding: 60px 0;
     background: white;
 }
 
 .video h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
     color: #333;
 }
 
 .video-container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     border-radius: 20px;
     overflow: hidden;
@@ -443,7 +443,7 @@ footer {
     }
 
     .video h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 

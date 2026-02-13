@@ -30,6 +30,20 @@ header {
     z-index: 1000;
 }
 
+.header-white {
+    background: white;
+    backdrop-filter: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-white .logo h1 {
+    color: #333;
+}
+
+.header-white .nav-links a {
+    color: #333;
+}
+
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
